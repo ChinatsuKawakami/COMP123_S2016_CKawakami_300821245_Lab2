@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 /*This is driver class
  * Author:Chinatsu Kawakami
  * Date:May 24th, 2016
- * Date Modified: May 24th, 2016
+ * Date Modified: May 25th, 2016
  * Student Id: 300821245
  * Description: This program calls instance variables from person class 
  * and print SayHello Method and ShowAge Method
- * Version : 0.0.5-Updated Person Class and added another constructor
+ * Version : 0.0.6-Updated Person Class
  */
 namespace COMP123_S2016_CKawakami_300821245_Lab2
 {

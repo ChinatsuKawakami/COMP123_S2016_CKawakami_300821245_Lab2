@@ -48,8 +48,8 @@ namespace COMP123_S2016_CKawakami_300821245_Lab2
 public Person()
  {
      
-         _name = "Tom";
-         _age = 47;
+         this._name = "Tom";
+         this._age = 47;
     
 }
 
