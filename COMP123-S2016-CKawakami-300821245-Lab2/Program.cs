@@ -10,7 +10,7 @@ using System.Threading.Tasks;
  * Student Id: 300821245
  * Description: This program calls instance variables from person class 
  * and print SayHello Method and ShowAge Method
- * Version : 0.0.4-Updated program
+ * Version : 0.0.5-Updated Person Class and added another constructor
  */
 namespace COMP123_S2016_CKawakami_300821245_Lab2
 {
@@ -30,11 +30,14 @@ namespace COMP123_S2016_CKawakami_300821245_Lab2
         static void Main(string[] args)
         {
             //create a new instance of the Person class
-            Person person1 = new Person("Tom");
-            
+            Person person1 = new Person();
+            Person person2 = new Person("Mark",27);
             // call the Sayhello and ShowAge method
             person1.SayHello();
             person1.ShowAge();
+
+            person2.SayHello();
+            person2.ShowAge();
         }
     }
 }

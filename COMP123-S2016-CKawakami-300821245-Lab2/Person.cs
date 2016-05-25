@@ -45,13 +45,18 @@ namespace COMP123_S2016_CKawakami_300821245_Lab2
      * @constructor Person
      * 
      */
-public Person(string name)
+public Person()
  {
-     if (name == "Tom")
-     {
-         _name = name;
+     
+         _name = "Tom";
          _age = 47;
-     }
+    
+}
+
+public Person(string name,int age)
+{
+    this._name = name;
+    this._age = age;
 }
 
 //This is my SayHello method 
